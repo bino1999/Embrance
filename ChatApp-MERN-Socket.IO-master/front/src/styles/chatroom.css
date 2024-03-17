@@ -1,0 +1,68 @@
+.chatroomPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ededed;
+  margin: 0;
+}
+
+.chatroomSection {
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.chatroomContent {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.chatroomActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.chatroomActions input {
+  flex: 1;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+
+.chatroomActions button {
+  background: #09f;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.message {
+  margin-bottom: 0.5rem;
+}
+
+.otherMessage {
+  color: #09f;
+  font-weight: bold;
+}
+
+.ownMessage {
+  color: #4caf50;
+  font-weight: bold;
+}

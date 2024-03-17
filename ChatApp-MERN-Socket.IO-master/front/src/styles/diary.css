@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: Montserrat;
+  box-sizing: border-box;
+  color: #333;
+}
+
+body {
+  font-size: 16px;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.full-height-whatsapp-theme{
+    width: 100%;
+    
+}
+.text-area {
+  width: 100%;
+  height: 50vh;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .card {
+  background-color: #444;
+}
+
+.dark-mode .btn-primary {
+  background-color: #888;
+  border-color: #888;
+}
+
+.dark-mode .form-control {
+  background-color: #555;
+  color: #fff;
+}
+
+.dark-mode .alert {
+  background-color: #555;
+  border-color: #666;
+  color: #fff;
+}
+
+.modal {
+  z-index: 1050; /* Set a higher z-index value */
+}
+
+.modal-backdrop {
+  z-index: 1040; /* Set a z-index value lower than the modal */
+}
